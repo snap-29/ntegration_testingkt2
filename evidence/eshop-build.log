@@ -1,0 +1,69 @@
+
+Вас приветствует .NET 9.0!
+---------------------
+Версия пакета SDK: 9.0.320
+
+Телеметрия
+---------
+Средства .NET собирают данные об использовании для повышения удобства. Данные собираются корпорацией Майкрософт и предоставляются сообществу. Вы можете отключить отправку данных телеметрии, установив значение "1" или "true" для переменной среды DOTNET_CLI_TELEMETRY_OPTOUT в подходящей оболочке.
+
+Дополнительные сведения о сборе данных телеметрии средствами CLI .NET см. на странице https://aka.ms/dotnet-cli-telemetry.
+
+----------------
+Установлен сертификат разработки ASP.NET Core HTTPS.
+Чтобы доверять сертификату, выполните команду "dotnet dev-certs https --trust"
+Дополнительные сведения об HTTPS: https://aka.ms/dotnet-https
+
+----------------
+Как написать свое первое приложение: https://aka.ms/dotnet-hello-world
+Узнать о новых возможностях: https://aka.ms/dotnet-whats-new
+Просмотреть документацию: https://aka.ms/dotnet-docs
+Сообщить о проблемах и найти исходный код на GitHub: https://github.com/dotnet/core
+Для просмотра доступных команд введите команду "dotnet --help" или посетите следующую страницу: https://aka.ms/dotnet-cli.
+--------------------------------------------------------------------------------------
+  Определение проектов для восстановления...
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj : warning NU1902: У пакета "Azure.Identity" 1.10.4 есть известная уязвимость https://github.com/advisories/GHSA-m5vv-6r4h-3vj9 (уровень серьезности: средний)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\ApplicationCore.csproj : warning NU1903: У пакета "System.Text.Json" 8.0.3 есть известная уязвимость https://github.com/advisories/GHSA-8g4q-xg66-9fp4 (уровень серьезности: высокий) [C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj]
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj : warning NU1902: У пакета "Azure.Identity" 1.10.4 есть известная уязвимость https://github.com/advisories/GHSA-wvxc-855f-jvrv (уровень серьезности: средний)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\ApplicationCore.csproj : warning NU1903: У пакета "System.Text.Json" 8.0.3 есть известная уязвимость https://github.com/advisories/GHSA-hh2w-p6rv-4g7w (уровень серьезности: высокий) [C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj]
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj : warning NU1903: У пакета "Microsoft.AspNetCore.Components.WebAssembly.Server" 8.0.2 есть известная уязвимость https://github.com/advisories/GHSA-qjpx-jqm5-h2c4 (уровень серьезности: высокий)
+  Восстановлен C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\BlazorShared\BlazorShared.csproj (за 14,01 с).
+  Восстановлен C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\BlazorAdmin\BlazorAdmin.csproj (за 14,09 с).
+  Восстановлен C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\ApplicationCore.csproj (за 14,08 с).
+  Восстановлен C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Infrastructure\Infrastructure.csproj (за 14,12 с).
+  Восстановлен C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj (за 14,27 с).
+  
+  Операция восстановления запущенна
+  
+  Библиотеки (6) восстановлены за 2,63 с
+  
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj : warning NU1902: У пакета "Azure.Identity" 1.10.4 есть известная уязвимость https://github.com/advisories/GHSA-m5vv-6r4h-3vj9 (уровень серьезности: средний)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj : warning NU1902: У пакета "Azure.Identity" 1.10.4 есть известная уязвимость https://github.com/advisories/GHSA-wvxc-855f-jvrv (уровень серьезности: средний)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj : warning NU1903: У пакета "Microsoft.AspNetCore.Components.WebAssembly.Server" 8.0.2 есть известная уязвимость https://github.com/advisories/GHSA-qjpx-jqm5-h2c4 (уровень серьезности: высокий)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\ApplicationCore.csproj : warning NU1903: У пакета "System.Text.Json" 8.0.3 есть известная уязвимость https://github.com/advisories/GHSA-8g4q-xg66-9fp4 (уровень серьезности: высокий)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\ApplicationCore.csproj : warning NU1903: У пакета "System.Text.Json" 8.0.3 есть известная уязвимость https://github.com/advisories/GHSA-hh2w-p6rv-4g7w (уровень серьезности: высокий)
+  BlazorShared -> C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\BlazorShared\bin\Debug\net8.0\BlazorShared.dll
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\Exceptions\EmptyBasketOnCheckoutException.cs(12,154): warning SYSLIB0051: "Exception.Exception(SerializationInfo, StreamingContext)" является устаревшим: 'This API supports obsolete formatter-based serialization. It should not be called or extended by application code.' (https://aka.ms/dotnet-warnings/SYSLIB0051) [C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\ApplicationCore.csproj]
+  ApplicationCore -> C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll
+  Infrastructure -> C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+  BlazorAdmin -> C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\BlazorAdmin\bin\Debug\net8.0\BlazorAdmin.dll
+  BlazorAdmin (Blazor output) -> C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\BlazorAdmin\bin\Debug\net8.0\wwwroot
+  Web -> C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\bin\Debug\net8.0\Web.dll
+
+Сборка успешно завершена.
+
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj : warning NU1902: У пакета "Azure.Identity" 1.10.4 есть известная уязвимость https://github.com/advisories/GHSA-m5vv-6r4h-3vj9 (уровень серьезности: средний)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\ApplicationCore.csproj : warning NU1903: У пакета "System.Text.Json" 8.0.3 есть известная уязвимость https://github.com/advisories/GHSA-8g4q-xg66-9fp4 (уровень серьезности: высокий) [C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj]
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj : warning NU1902: У пакета "Azure.Identity" 1.10.4 есть известная уязвимость https://github.com/advisories/GHSA-wvxc-855f-jvrv (уровень серьезности: средний)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\ApplicationCore.csproj : warning NU1903: У пакета "System.Text.Json" 8.0.3 есть известная уязвимость https://github.com/advisories/GHSA-hh2w-p6rv-4g7w (уровень серьезности: высокий) [C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj]
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj : warning NU1903: У пакета "Microsoft.AspNetCore.Components.WebAssembly.Server" 8.0.2 есть известная уязвимость https://github.com/advisories/GHSA-qjpx-jqm5-h2c4 (уровень серьезности: высокий)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj : warning NU1902: У пакета "Azure.Identity" 1.10.4 есть известная уязвимость https://github.com/advisories/GHSA-m5vv-6r4h-3vj9 (уровень серьезности: средний)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj : warning NU1902: У пакета "Azure.Identity" 1.10.4 есть известная уязвимость https://github.com/advisories/GHSA-wvxc-855f-jvrv (уровень серьезности: средний)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\Web\Web.csproj : warning NU1903: У пакета "Microsoft.AspNetCore.Components.WebAssembly.Server" 8.0.2 есть известная уязвимость https://github.com/advisories/GHSA-qjpx-jqm5-h2c4 (уровень серьезности: высокий)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\ApplicationCore.csproj : warning NU1903: У пакета "System.Text.Json" 8.0.3 есть известная уязвимость https://github.com/advisories/GHSA-8g4q-xg66-9fp4 (уровень серьезности: высокий)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\ApplicationCore.csproj : warning NU1903: У пакета "System.Text.Json" 8.0.3 есть известная уязвимость https://github.com/advisories/GHSA-hh2w-p6rv-4g7w (уровень серьезности: высокий)
+C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\Exceptions\EmptyBasketOnCheckoutException.cs(12,154): warning SYSLIB0051: "Exception.Exception(SerializationInfo, StreamingContext)" является устаревшим: 'This API supports obsolete formatter-based serialization. It should not be called or extended by application code.' (https://aka.ms/dotnet-warnings/SYSLIB0051) [C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-source\src\ApplicationCore\ApplicationCore.csproj]
+    Предупреждений: 11
+    Ошибок: 0
+
+Прошло времени 00:00:30.50

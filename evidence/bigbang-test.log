@@ -1,0 +1,65 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< ru.ithub:eshop-big-bang >-----------------------
+[INFO] Building eshop-big-bang 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ eshop-big-bang ---
+[INFO] skip non existing resourceDirectory C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-big-bang\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ eshop-big-bang ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ eshop-big-bang ---
+[INFO] skip non existing resourceDirectory C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-big-bang\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ eshop-big-bang ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug release 21] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ eshop-big-bang ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ru.ithub.eshop.BigBangTest
+[ERROR] Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.735 s <<< FAILURE! -- in ru.ithub.eshop.BigBangTest
+[ERROR] ru.ithub.eshop.BigBangTest.wholeSystemHealthMustBeHealthy -- Time elapsed: 2.042 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: {"status":"Unhealthy","errors":[{"key":"api_health_check","value":"Unhealthy"},{"key":"home_page_health_check","value":"Healthy"}]} ==> expected: <200> but was: <503>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at ru.ithub.eshop.BigBangTest.wholeSystemHealthMustBeHealthy(BigBangTest.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   BigBangTest.wholeSystemHealthMustBeHealthy:34 {"status":"Unhealthy","errors":[{"key":"api_health_check","value":"Unhealthy"},{"key":"home_page_health_check","value":"Healthy"}]} ==> expected: <200> but was: <503>
+[INFO] 
+[ERROR] Tests run: 10, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.374 s
+[INFO] Finished at: 2026-10-28T20:31:44+03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.2:test (default-test) on project eshop-big-bang: There are test failures.
+[ERROR] 
+[ERROR] See C:\Users\georg\Documents\Codex\2026-10-28\1-1-2-3-paypal-email\work\eshop-big-bang\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
